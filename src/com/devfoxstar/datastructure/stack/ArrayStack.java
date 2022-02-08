@@ -1,4 +1,4 @@
-package com.devfoxstar.test;
+package com.devfoxstar.datastructure.stack;
 
 import java.util.Arrays;
 
@@ -39,7 +39,7 @@ public class ArrayStack {
         if (empty()) {
             return "";
         } else {
-            return stack[index];
+            return stack[size - index - 1];
         }
     }
 
@@ -67,7 +67,7 @@ public class ArrayStack {
         System.out.println(arrayStack.peek());  //D
 
         //search
-        System.out.println(arrayStack.search(1));   //B
+        System.out.println(arrayStack.search(3));   //B
 
         //empty
         System.out.println(arrayStack.empty());  //false

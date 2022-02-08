@@ -1,11 +1,11 @@
-package com.devfoxstar.sort;
+package com.devfoxstar.datastructure.sort;
 
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
 import java.util.Arrays;
 
-public class Base {
+public class Array {
 
     @Test
     public void sortIntArray() {
