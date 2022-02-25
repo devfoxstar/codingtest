@@ -52,8 +52,8 @@ public class Base {
         list.add("c");
         list.add("b");
 
-        for (String item : list) {
-            System.out.println(item);   //a, c, b
+        for (int i=0; i<list.size(); i++) {
+            System.out.println(list.get(i));   //a, c, b
         }
 
         //List - Lamda,
@@ -65,7 +65,9 @@ public class Base {
 
         //List - Sort Desc
         Collections.sort(list, Collections.reverseOrder());
-        list.forEach(s -> System.out.println(s));   //c, b, a
+        list.forEach(s -> {
+            System.out.println(s);   //c, b, a
+        });
 
 
         //HashMap
