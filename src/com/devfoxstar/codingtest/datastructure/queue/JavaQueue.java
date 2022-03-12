@@ -1,4 +1,4 @@
-package com.devfoxstar.datastructure.queue;
+package com.devfoxstar.codingtest.datastructure.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package com.devfoxstar;
+package com.devfoxstar.codingtest;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.devfoxstar.datastructure.list;
+package com.devfoxstar.codingtest.datastructure.list;
 
 import java.util.List;
 import java.util.ArrayList;

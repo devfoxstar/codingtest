@@ -1,4 +1,4 @@
-package com.devfoxstar.datastructure.stack;
+package com.devfoxstar.codingtest.datastructure.stack;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package com.devfoxstar.datastructure;
+package com.devfoxstar.codingtest.datastructure;
 
 import java.util.*;
 
