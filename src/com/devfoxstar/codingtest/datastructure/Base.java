@@ -1,6 +1,7 @@
 package com.devfoxstar.codingtest.datastructure;
 
 import java.util.*;
+import java.util.stream.Stream;
 
 public class Base {
 
@@ -80,6 +81,11 @@ public class Base {
             System.out.println(String.format("%s = %s", k, v));    //1 = 가, 2 = 다, 3 = 나
         });
 
+
+        //Stream
+        int number = 371;
+        int numberPlus = Stream.of(String.valueOf(number).split("")).mapToInt(Integer::parseInt).sum();
+        System.out.println(numberPlus);
     }
 
 }
